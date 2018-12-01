@@ -1,0 +1,239 @@
+/***************************************
+ HTML, body and main. Used throughout
+ the site.
+ ***************************************/
+
+html, body {
+    height: 100%;
+}
+
+body {
+    padding-top: 55px;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+}
+
+main {
+    margin: auto;
+    padding: 25px;
+    flex: 1 0 auto;
+    max-width: 750px;
+}
+
+/***************************************
+ Navigation bar (top)
+ ***************************************/
+
+.navbar-icon {
+    font-size: 125%;
+    display: inline-block !important;
+}
+
+.navbar.navbar-default {
+    border-top: var(--border-width) solid var(--accent);
+    font-family: 'Ubuntu';
+    font-weight: 600;
+}
+
+/***************************************
+ Main index styling.  Hero image, etc.
+ ***************************************/
+
+.intro {
+    transform: translateY(1vh);
+}
+
+.intro > h1 {
+    color: #000;
+    font-size: 4vh;
+}
+
+.intro > h2 {
+    color: #000;
+    font-size: 2vmin;
+}
+
+.intro > .profile {
+    width: 10vh;
+    height: 10vh;
+    border-radius: 50%;
+}
+
+/***************************************
+ General article, document or post related styles.
+ ***************************************/
+
+article {
+    padding-left: 25px;
+    text-align: left;
+}
+
+
+.post-summary {
+  text-align: left;
+}
+
+/*apply accent colour to links*/
+
+a:link, a:visited {
+    color: var(--accent);
+}
+
+a.icon:hover {
+    text-decoration: none;
+}
+
+a:hover {
+    color: var(--accent) !important;
+}
+
+/***************************************
+ Items in lists for articles, projects,
+ services.
+ ***************************************/
+
+.item {
+    padding: 10px 0;
+}
+
+.item-tag {
+    background-color: var(--accent);
+}
+
+.checklist {
+  list-style-type: none;
+}
+
+/***************************************
+ Contact, about, welcome, impact.
+ ***************************************/
+.contact {
+  background: #000;
+  color: #fff;
+  width: 100%;
+}
+
+.about {
+  background: #000;
+  color: #fff;
+  width: 100%;
+}
+
+.about p {
+  font-family: 'Ubuntu';
+  font-weight: 300;
+  font-size: 3vh;
+  text-align: left;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-top: 100px;
+  margin-bottom: 250px;
+}
+
+.welcome {
+  background: #000;
+  color: #fff;
+  width: 100%;
+  padding-bottom: 25px;
+}
+
+.welcome p {
+  font-family: 'Ubuntu';
+  font-weight: 300;
+  font-size: 3vh;
+  text-align: left;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+.welcome-white {
+  background: #fff;
+  color: #000;
+  width: 90%;
+  flex: auto;
+}
+
+.welcome-white h2 {
+  border-bottom: 5px solid #000;
+  padding-bottom: 5px;
+}
+
+.welcome-white h3 {
+  font-weight: bold;
+  margin-left: 50px;
+  margin-bottom: 25px;
+}
+
+.welcome-white p {
+  font-family: 'Ubuntu';
+  font-weight: 300;
+  font-size: 3vh;
+  text-align: left;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-top: 5px;
+  margin-bottom: 25px;
+}
+
+.welcome-white ul {
+  margin-left: 50px;
+  font-size: 2vh;
+}
+
+.impact {
+  font-size: 5vmin;
+  text-align: center;
+}
+/***************************************
+ Footer
+ ***************************************/
+
+.copyright {
+  height: 100%;
+  vertical-align: bottom;
+}
+
+address {
+  margin: 0;
+}
+
+footer {
+  border-bottom: var(--border-width) solid var(--accent);
+  background: #222;
+  width: 100%;
+  margin-top: auto;
+  flex-shrink: 0;
+}
+
+footer .container .row {
+  margin: 0;
+  padding: 0;
+}
+
+footer .container {
+  font-family: 'Ubuntu';
+  font-weight: 300;
+  color: #ccc;
+  width: 100%;
+  text-align: left;
+  padding: 0;
+}
+
+footertext {
+  height: 100%;
+}
+
+footer .glyph {
+    text-align: left;
+}
+
+/***************************************
+ Misc, constraints on images.
+ ***************************************/
+
+img {
+    max-width: 100%;
+}

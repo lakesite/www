@@ -1,0 +1,51 @@
+  <footer>
+    <div class="container">
+      <div class="row" style="width: 100%; border: 1px solid #fff;">
+        <div class="col-md-2">
+          <br>
+          <div class="footertext">
+            <h4>Company</h4>
+            <a href="/about/">About</a><br>
+            <a href="/contact/">Contact</a><br>
+            <a href="/welcome/">Welcome</a><br>
+          </div>
+        </div>
+        <div class="col-md-2">
+          <br>
+          <div class="footertext">
+            <h4>Services</h4>
+            <a href="/service/software_engineering/">Software engineering</a><br>
+            <a href="/service/consulting/">Consulting</a><br>
+            <a href="/service/process_automation/">Process automation</a><br>
+            <a href="/service/api_bots/">APIs and bots</a><br>
+          </div>
+        </div>
+        <div class="col-md-2">
+          <br>
+          <div class="footertext">
+            <h4>Projects</h4>
+            <a href="/project/dash">Dash</a><br>
+            <a href="/project/zefram">Zefram</a><br>
+            <a href="/project/linksync">LinkSync</a><br>
+          </div>
+        </div>
+        <div class="col-md-2">
+          <div class="glyph"><img src="/images/glypht.png"></div>
+        </div>
+        <div class="col-md-2">
+          <br>
+          <div class="footertext">
+            {{ partial "address.html" . }}
+          </div>
+        </div>
+        <div class="col-md-2">
+          <br>
+          <div class="footertext">
+            <p class="copyright">{{ .Site.Params.copyright | default "&copy;<br>All rights reserved." | markdownify }}</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>

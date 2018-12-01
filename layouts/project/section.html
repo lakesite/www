@@ -1,0 +1,23 @@
+{{ partial "header" . }}
+
+<div class="container">
+  <article>
+  <h1 id="title">Projects</h1>
+  {{ range .Data.Pages.GroupByDate "2006" }}
+    <div class="container">
+      <div class="row">
+        {{ range $index, $page := .Pages }}
+          {{ if eq (mod $index 3) 0 }}
+      </div><div class="row">
+          {{ end }}
+          <div class="col-md-4">
+            <div class="post-summary">{{ .Render "list" }}</div>
+          </div>
+        {{ end }}
+      </div>
+    </div>
+  {{ end }}
+  </article>
+</div>
+
+{{ partial "footer" . }}

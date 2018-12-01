@@ -1,0 +1,77 @@
+baseURL = "https://lakesite.net/"
+language = "en-us"
+company = "Lakesite.Net, LLC"
+title = "Logic simplified"
+# theme = "" # lakesite
+# disqusShortname = ""
+googleAnalytics = ""
+summaryLength = "70"
+
+[params]
+    author = "Lakesite.Net, LLC"
+    copyright = "copyright &copy; Lakesite.Net, LLC.<br>All rights reserved."
+    description = "We make your vision a reality using the best practices in the industry."
+    favicon = "favicon.ico"
+    title_navigation = "lakesite.net"
+    navmenuSmall = "/images/logo-white-blue-small.png"
+    font = "Raleway"
+    profilePic = ""
+
+[[menu.main]]
+    url = "/service/"
+    name = "Services"
+    identifier = "services"
+    weight = 1
+
+[[menu.main]]
+    url = "/project/"
+    name = "Projects"
+    identifier = "projects"
+    weight = 2
+
+[[menu.main]]
+    url = "/article/"
+    name = "Articles"
+    identifier = "articles"
+    weight = 3
+
+[[menu.main]]
+    url = "/about/"
+    name = "About"
+    identifier = "about"
+    weight = 5
+
+[[menu.main]]
+    url = "/contact/"
+    name = "Contact"
+    identifier = "contact"
+    weight = 6
+
+# Social icons to be shown on the right-hand side of the navigation bar
+# The "name" field should match the name of the icon to be used
+# The list of available icons can be found at http://fontawesome.io/icons/
+
+[[menu.icon]]
+    url = "/contact/"
+    name = "envelope-o"
+    weight = 1
+
+[[menu.icon]]
+    url = "https://github.com/lakesite/"
+    name = "github"
+    weight = 2
+
+#[[menu.icon]]
+#    url = "https://twitter.com/username/"
+#    name = "twitter"
+#    weight = 3
+
+[[menu.icon]]
+    url = "https://www.linkedin.com/in/ajduncan/"
+    name = "linkedin"
+    weight = 4
+
+#[[menu.icon]]
+#    url = "https://www.stackoverflow.com/username/"
+#    name = "stack-overflow"
+#    weight = 5

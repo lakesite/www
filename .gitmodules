@@ -1,0 +1,6 @@
+[submodule "themes/lachesis"]
+	path = themes/lachesis
+	url = https://github.com/ajduncan/gohugo-theme-lachesis.git
+[submodule "themes/minimal"]
+	path = themes/minimal
+	url = https://github.com/calintat/minimal.git

@@ -1,0 +1,16 @@
+{{ partial "header" . }}
+
+<div class="container">
+  <article>
+    <h1 id="title">Articles</h1>
+    {{ range .Data.Pages.GroupByDate "2006" }}
+      <div class="post-summary">
+        {{ range .Pages }}
+            {{ .Render "list"}}
+        {{ end }}
+      </div>
+    {{ end }}
+  </article>
+</div>
+
+{{ partial "footer" . }}
