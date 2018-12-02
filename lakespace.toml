@@ -1,0 +1,21 @@
+[www]
+browser = "firefox"
+tabs = [
+  "https://github.com/lakesite/www/",
+  "https://lakesite.net/",
+  "http://localhost:1313/"
+]
+
+[docs]
+browser = "firefox"
+tabs = [
+  "https://gohugo.io/templates/lookup-order/",
+  "https://www.jakewiesler.com/blog/hugo-directory-structure/",
+  "https://medium.com/memory-leak/the-jamstack-its-pretty-sweet-e0834e4e6bb7",
+  "https://jamstack.org/examples/",
+  "https://neilpatel.com/blog/category/seo/"
+]
+
+[ide]
+editor = "atom"
+project_directory = "."
