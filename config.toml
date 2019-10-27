@@ -9,7 +9,7 @@ summaryLength = "70"
 
 [params]
     author = "Lakesite.Net, LLC"
-    copyright = "copyright &copy; Lakesite.Net, LLC.<br>All rights reserved."
+    copyright = "copyright &copy; {year} Lakesite.Net, LLC.<br>All rights reserved."
     description = "We make your vision a reality using the best practices in the industry."
     favicon = "favicon.ico"
     title_navigation = "lakesite.net"

@@ -44,7 +44,7 @@
         <div class="col-md-2">
           <br>
           <div class="footertext">
-            <p class="copyright">{{ .Site.Params.copyright | default "&copy;<br>All rights reserved." | markdownify }}</p>
+            <p class="copyright">{{ replace .Site.Params.copyright "{year}" now.Year | default "&copy;<br>All rights reserved." | markdownify }}</p>
           </div>
         </div>
       </div>
