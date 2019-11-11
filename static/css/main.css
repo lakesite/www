@@ -32,7 +32,7 @@ main {
 
 .navbar.navbar-default {
     border-top: var(--border-width) solid var(--accent);
-    font-family: 'Ubuntu';
+    font-family: 'Verdana';
     font-weight: 600;
 }
 
@@ -110,7 +110,7 @@ a:hover {
 }
 
 /***************************************
- Contact, about, welcome, impact.
+ Contact, about, welcome, privacy, impact.
  ***************************************/
 .contact {
   background: #000;
@@ -125,7 +125,7 @@ a:hover {
 }
 
 .about p {
-  font-family: 'Ubuntu';
+  font-family: 'Verdana';
   font-weight: 300;
   font-size: 3vh;
   text-align: left;
@@ -143,7 +143,7 @@ a:hover {
 }
 
 .welcome p {
-  font-family: 'Ubuntu';
+  font-family: 'Verdana';
   font-weight: 300;
   font-size: 3vh;
   text-align: left;
@@ -172,7 +172,7 @@ a:hover {
 }
 
 .welcome-white p {
-  font-family: 'Ubuntu';
+  font-family: 'Verdana';
   font-weight: 300;
   font-size: 3vh;
   text-align: left;
@@ -185,6 +185,30 @@ a:hover {
 .welcome-white ul {
   margin-left: 50px;
   font-size: 2vh;
+}
+
+.privacy {
+  background: #fff;
+  color: #000;
+  width: 100%;
+}
+
+.privacy p {
+  font-family: 'Verdana';
+  font-weight: 300;
+  font-size: 2vh;
+  text-align: left;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-bottom: 20px;
+}
+
+.privacy h2 {
+  font-size: 3vh;
+  text-align: left;
+  margin-left: 50px;
+  font-weight: bold;
+  padding-bottom: 5px;
 }
 
 .impact {
@@ -218,7 +242,7 @@ footer .container .row {
 }
 
 footer .container {
-  font-family: 'Ubuntu';
+  font-family: 'Verdana';
   font-weight: 300;
   color: #ccc;
   width: 100%;

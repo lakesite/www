@@ -4,17 +4,17 @@ company = "Lakesite.Net, LLC"
 title = "Logic simplified"
 # theme = "" # lakesite
 # disqusShortname = ""
-googleAnalytics = ""
+googleAnalytics = "UA-100888-1"
 summaryLength = "70"
 
 [params]
     author = "Lakesite.Net, LLC"
-    copyright = "copyright &copy; {year} Lakesite.Net, LLC.<br>All rights reserved."
+    copyright = "Copyright &copy; {year} Lakesite.Net, LLC.<br>All rights reserved."
     description = "We make your vision a reality using the best practices in the industry."
     favicon = "favicon.ico"
     title_navigation = "lakesite.net"
     navmenuSmall = "/images/logo-white-blue-small.png"
-    font = "Raleway"
+    font = "Verdana"
     profilePic = ""
 
 [[menu.main]]
