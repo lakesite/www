@@ -3,17 +3,17 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>{{ .Title }}</title>
-    {{ if .Site.Params.favicon }}
+    <title>{{- .Title -}}</title>
+    {{ if .Site.Params.favicon -}}
     <link rel="icon" href="{{ .Site.Params.favicon | absURL }}">
     {{ end }}
-    {{ partial "css" . }} {{ partial "js" . }} {{ .Hugo.Generator }}
-    {{ if .RSSLink }}
+    {{- partial "css" . -}}
+    {{- partial "js" . -}}
+    {{- if .RSSLink -}}
     <link href="{{ .RSSLink }}" rel="alternate" type="application/rss+xml" title="{{ .Site.Title }}" />
     <link href="{{ .RSSLink }}" rel="feed" type="application/rss+xml" title="{{ .Site.Title }}" />
-    {{ end }}
-
-    {{ if .Site.GoogleAnalytics }}
+    {{- end }}
+    {{- if .Site.GoogleAnalytics -}}
     <!-- Global Site Tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id={{ .Site.GoogleAnalytics }}"></script>
     <script>
@@ -23,7 +23,7 @@
 
       gtag('config', '{{ .Site.GoogleAnalytics }}');
     </script>
-    {{ end }}
+    {{- end }}
   </head>
 <body>
   <nav class="navbar navbar-default navbar-fixed-top navbar-inverse">

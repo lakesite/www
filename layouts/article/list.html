@@ -1,4 +1,7 @@
+{{- if .Params.thumbnail -}}<img style="float: left; padding-right: 10px" src="{{ .Params.thumbnail }}"/>{{- end -}}
 <h2>{{ .Title }}</h2>
-<div class="article-date">{{ .Date.Format "Mon, Jan 2, 2006" }}</div>
+<div class="article-date">{{ .Date.Format "Mon, Jan 2, 2006" }}</div><br>
 <p>{{ .Summary }}</p>
 <a href="{{ .RelPermalink }}" class="post-summary-read-more">READ MORE</a>
+<div style="clear: both;"></div>
+<br><br>

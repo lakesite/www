@@ -14,7 +14,7 @@ summaryLength = "70"
     favicon = "favicon.ico"
     title_navigation = "lakesite.net"
     navmenuSmall = "/images/logo-white-blue-small.png"
-    font = "Verdana"
+    font = "Barlow"
     profilePic = ""
 
 [[menu.main]]
