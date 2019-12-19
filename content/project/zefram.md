@@ -4,10 +4,13 @@ date: 2018-11-27T00:39:59-05:00
 draft: false
 ---
 
-A first contact form management app for django.
+🚀 first contact microservice API 🚀
 
 <!--more-->
 
-[zefram](https://github.com/lakesite/zefram): A contact form management system for your first contact.
+[zefram](https://github.com/lakesite/zefram): A first contact microservice API.
+
+Use zefram to handle contacts and inquiries, to save them to a database, mail
+them to yourself to respond, and integrate with other APIs like Mailchimp.
 
 Interested in using zefram? [Get Started Now](/contact/)

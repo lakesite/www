@@ -1,13 +1,13 @@
 ---
 title: "Create a Golang Web Service"
-thumbnail: "/images/articles/2/thumbnail.png" 
+thumbnail: "/images/blog/2/thumbnail.png" 
 date: 2019-11-27
 tags: ["golang", "library", "web", "tools"]
 draft: false
 id: 2
 ---
 
-![head](/images/articles/2/head.png)
+![head](/images/blog/2/head.png)
 
 \
 If you use Golang to create performant web APIs, you will find yourself adding
@@ -46,7 +46,7 @@ func main() {
 \
 Next build the application, run it, and visit http://127.0.0.1:8080/
 
-![build](/images/articles/2/1.png)
+![build](/images/blog/2/1.png)
 
 \
 Next either visit the URL in your browser or use curl as such:
@@ -85,17 +85,17 @@ To:
 We've changed the name of the web service to carbon, instead of main.  Your code
 should look like the following:
 
-![Atom Editor Code](/images/articles/2/2.png)
+![Atom Editor Code](/images/blog/2/2.png)
 
 \
 Now when you build carbon.go and run the application, it should say *carbon* serving on: 127.0.0.1:8080:
 
-![Build 2](/images/articles/2/3.png)
+![Build 2](/images/blog/2/3.png)
 
 \
 Since we're using [ls-config](https://github.com/lakesite/ls-config) we can use environment variables to control what IP or port the application binds to and listens on:
 
-![Environment variables](/images/articles/2/4.png)
+![Environment variables](/images/blog/2/4.png)
 
 \
 Now we want to test the template response functionality in [ls-fibre](https://github.com/lakesite/ls-fibre/), but we need create a directory matching the web service name.  Create the following:
@@ -132,4 +132,4 @@ Also make sure web/carbon/templates/base.html contains:
 \
 Now make sure carbon is running on the default port, 8080.  When you visit http://127.0.0.1:8080/ you should see "Hello from the carbon service."
 
-![hello](/images/articles/2/5.png)
+![hello](/images/blog/2/5.png)

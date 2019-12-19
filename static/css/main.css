@@ -110,8 +110,68 @@ a:hover {
 }
 
 /***************************************
- Contact, about, welcome, privacy, impact.
+ Services, Projects, Articles, About,
+ Contact, welcome, privacy, impact.
  ***************************************/
+.services-hero {
+  display: table;
+  position: relative;
+  width: 100%;
+  height: 400px;
+  background: url(/images/services/head.png) no-repeat center center fixed;
+  background-size: auto;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.services-hero > .container {
+  margin: 0% 0 0 10%;
+  padding-bottom: 25px;
+  color: #000;
+  text-align: left;
+}
+
+.projects-hero {
+  display: table;
+  position: relative;
+  width: 100%;
+  height: 400px;
+  background: url(/images/projects/head.png) no-repeat center center fixed;
+  background-size: auto;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.projects-hero > .container {
+  margin: 0% 0 0 10%;
+  padding-bottom: 25px;
+  color: #000;
+  text-align: left;
+}
+
+.articles-hero {
+  display: table;
+  position: relative;
+  width: 100%;
+  height: 400px;
+  background: url(/images/blog/head.png) no-repeat center center fixed;
+  background-size: auto;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.articles-hero > .container {
+  margin: 0 0 0 0;
+  color: #fff;
+  text-align: center;
+}
+
 .contact {
   background: #000;
   color: #fff;
@@ -214,6 +274,7 @@ a:hover {
   font-size: 2vh;
 }
 
+/* /privacy/ */
 .privacy {
   background: #fff;
   color: #000;
@@ -230,12 +291,57 @@ a:hover {
   margin-bottom: 20px;
 }
 
+.privacy h1 {
+  font-size: 4vh;
+  text-align: left;
+  margin-left: 50px;
+  font-weight: bold;
+  padding-bottom: 5px;
+}
+
 .privacy h2 {
   font-size: 3vh;
   text-align: left;
   margin-left: 50px;
   font-weight: bold;
   padding-bottom: 5px;
+}
+
+/* ToS */
+.tos {
+  background: #fff;
+  color: #000;
+  width: 100%;
+}
+
+.tos p {
+  font-family: 'Barlow',sans-serif;
+  font-weight: 300;
+  font-size: 2vh;
+  text-align: left;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-bottom: 20px;
+}
+
+.tos h1 {
+  font-size: 4vh;
+  text-align: left;
+  margin-left: 50px;
+  font-weight: bold;
+  padding-bottom: 5px;
+}
+
+.tos h2 {
+  font-size: 3vh;
+  text-align: left;
+  margin-left: 50px;
+  font-weight: bold;
+  padding-bottom: 5px;
+}
+
+.tos ul {
+  margin-left: 50px;
 }
 
 .impact {

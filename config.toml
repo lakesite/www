@@ -10,7 +10,7 @@ summaryLength = "70"
 [params]
     author = "Lakesite.Net, LLC"
     copyright = "Copyright &copy; {year} Lakesite.Net, LLC.<br>All rights reserved."
-    description = "We make your vision a reality using the best practices in the industry."
+    description = "We convert software problems into simple solutions."
     favicon = "favicon.ico"
     title_navigation = "lakesite.net"
     navmenuSmall = "/images/logo-white-blue-small.png"
@@ -30,9 +30,9 @@ summaryLength = "70"
     weight = 2
 
 [[menu.main]]
-    url = "/article/"
-    name = "Articles"
-    identifier = "articles"
+    url = "/blog/"
+    name = "Blog"
+    identifier = "blog"
     weight = 3
 
 [[menu.main]]
@@ -61,10 +61,10 @@ summaryLength = "70"
     name = "github"
     weight = 2
 
-#[[menu.icon]]
-#    url = "https://twitter.com/username/"
-#    name = "twitter"
-#    weight = 3
+[[menu.icon]]
+    url = "https://twitter.com/lakesitenet/"
+    name = "twitter"
+    weight = 3
 
 [[menu.icon]]
     url = "https://www.linkedin.com/in/ajduncan/"

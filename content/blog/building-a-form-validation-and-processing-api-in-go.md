@@ -1,13 +1,13 @@
 ---
 title: "Building a Form Validation and Processing API in Go"
-thumbnail: "/images/articles/3/thumbnail.png"
+thumbnail: "/images/blog/3/thumbnail.png"
 date: 2019-12-01
 tags: ["golang", "library", "web", "api", "microservices"]
 draft: false
 id: 3
 ---
 
-![head](/images/articles/3/head.png)
+![head](/images/blog/3/head.png)
 
 At Lakesite.Net, we love using [JAMStack](https://jamstack.org) (Javascript APIs
 and Markup) because it simplifies the developer experience, allows for a

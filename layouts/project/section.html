@@ -1,8 +1,7 @@
 {{ partial "header" . }}
-
-<div class="container">
+<div class="container" style="width: 100%; margin:0; padding:0;">
+  <div class="projects-hero"></div>
   <article>
-  <img src="/images/projects/head.png" alt="Code" />
   <h1 id="title">Projects</h1>
   {{ range .Data.Pages.GroupByDate "2006" }}
     <div class="container">
@@ -20,5 +19,5 @@
   {{ end }}
   </article>
 </div>
-
+<br>&nbsp;<br>
 {{ partial "footer" . }}
